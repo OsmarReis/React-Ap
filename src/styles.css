@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ece9e6;
+  background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+  color: #333;
+}
+
+@media screen and (min-width: 750px) {
+  .Header {
+    grid-area: header;
+  }
+  .Form {
+    /* width: clamp(400px, 720px, 720px); */
+    height: 100vh;
+    grid-area: form;
+  }
+  .Result {
+    height: 100vh;
+    grid-area: result;
+  }
+
+  .App {
+    display: grid;
+    /* grid-column-gap: 50px; */
+    grid-template-areas:
+      "header header header"
+      "form result result"
+      "form result result";
+  }
+}

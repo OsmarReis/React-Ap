@@ -1,0 +1,12 @@
+.arrays {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrays h1 {
+    margin-bottom: 10px;
+}
+
+.arrays ul {
+    line-height: 1.5;
+}

@@ -1,0 +1,35 @@
+
+label {
+   font-size: 15px;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+
+input {
+    height: 25px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+   height: 42px;
+   border-radius: 5px;
+   border: 2px solid #da552f;
+   background: none;
+   margin-top: 5px;
+   color: #da552f;
+   font-weight: bold;
+   font-size: 16px;
+   cursor: pointer;
+   transition: all 200ms;
+}
+
+button:hover {
+   background: #da552f;
+   color: #FFF;
+}
+
+button:active{
+    opacity: 0.5;
+}
